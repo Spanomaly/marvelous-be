@@ -21,11 +21,11 @@ Create a copy of the sample config file found here:
 
     /config/sample.config.json
 
-and rename it
+Rename it
 
     /config/config.json
 
-Update the development object with the configuration for your database:
+In the new file, update the development object with the configuration for your database:
 
       "development": {
         "username": "YOUR_USERNAME",
@@ -36,18 +36,18 @@ Update the development object with the configuration for your database:
         "operatorsAliases": false
       }
 
-To start the server
+To start the server:
 
     npm start
 
 
 If you'd prefer a development server that reloads after changes:
 
-install nodemon
+Install nodemon
 
     npm i -g nodemon
 
-start dev server
+Start the dev server
 
     npm run dev
 
