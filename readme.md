@@ -1,21 +1,26 @@
 # Marvelous App
-This is the beckern for an app that lets you put items in either column one or two.  Then you can fi those items by typing in a search field.
+This is the backend for an app that lets you put items in either column one or column two.  Then you can filter those items by typing in a search field.
 
 
 ## Backend Setup
 
 Git clone the repo to your preferred directory:
 
-    > git clone https://github.com/Spanomaly/marvelous-be.git
+    git clone https://github.com/Spanomaly/marvelous-be.git
+
+Change to the new project directory:
+
+    cd marvelous-be/
 
 Install the npm packages:
 
-    > npm i
+    npm i
 
 
 This backend requires a MySQL database on your machine.  Information about installing MySQL and setting up a database can be found [here](https://dev.mysql.com/doc/mysql-getting-started/en/).
 
-Create a new database and user with full permissions for that database.
+You'll want to set up a new database, and a user with full privileges, which should be covered in the guide.
+
 
 Create a copy of the sample config file found here:
 
